@@ -1,6 +1,12 @@
+import React from "react";
+
 function Navbar() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar is-transparent is-info is-spaced"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item" href="#">
@@ -24,10 +30,9 @@ function Navbar() {
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div className="navbar-menu">
           <div className="navbar-start">
             <a className="navbar-item">About</a>
-
             <a className="navbar-item">Projects</a>
             <a className="navbar-item">Contact</a>
           </div>
