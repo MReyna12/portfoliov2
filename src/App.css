@@ -1,4 +1,4 @@
-/** Styling for headshot **/
+/** Styling for headshot - Hero.jsx **/
 .headshot {
   width: 150px;
   margin: 2rem 0;
@@ -8,13 +8,21 @@
   border-radius: 50%;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/** Styling for web developer image - Hero.jsx **/
+.developer-margin {
+  margin-bottom: -1.4rem;
+}
+
 @media screen and (min-width: 769px) {
   .headshot {
     width: 210px;
   }
-}
-
-img {
-  height: auto;
-  max-width: 100%;
+  .developer-margin {
+    margin-bottom: -1.725rem;
+  }
 }

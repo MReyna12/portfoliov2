@@ -26,9 +26,9 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div class="hero-foot">
+      <div className="hero-foot">
         <div className="container">
-          <img src={softwareDev} alt="" />
+          <img className="developer-margin" src={softwareDev} alt="" />
         </div>
       </div>
     </section>
