@@ -26,3 +26,15 @@ img {
     margin-bottom: -1.725rem;
   }
 }
+
+/** Styling for the technologies container - Technologies.jsx **/
+
+.shift-up {
+  transform: translateY(-80px);
+}
+
+@media screen and (min-width: 1024px) {
+  .shift-up {
+    transform: translateY(-120px);
+  }
+}
