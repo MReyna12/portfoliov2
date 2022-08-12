@@ -1,15 +1,20 @@
+/** Styling for headshot **/
 .headshot {
   width: 150px;
   margin: 2rem 0;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
+.rounded-image {
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 769px) {
   .headshot {
     width: 210px;
   }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
