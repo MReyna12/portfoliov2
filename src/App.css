@@ -35,7 +35,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .shift-up {
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
 }
 
@@ -88,6 +88,12 @@ img {
 .under-logo-text {
   max-width: 300px;
   opacity: 0.8;
+}
+
+footer .social-icons a.button {
+  border: 2px solid rgba(255, 255, 255, 0.582);
+  border-radius: 100%;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,5 +1,9 @@
 import React from "react";
 import logo from "/mr-icon.png";
+import linkedin from "/linkedin.png";
+import github from "/github-small.png";
+import twitter from "/twitter.png";
+import email from "/email.png";
 
 function Footer() {
   return (
@@ -15,64 +19,44 @@ function Footer() {
             </h2>
           </div>
         </div>
-        <div className="social-icons">
-          <p className="field">
+        <div className="social-icons mb-6">
+          <div className="field">
             <a
-              className="button is-medium"
-              href="https://twitter.com/farleymatters"
+              className="social-logo-container button is-medium mr-4"
+              href="https://www.linkedin.com/in/michaelpreyna/"
               target="_blank"
             >
-              <span className="icon is-small"></span>
-            </a>
-            <a
-              className="button is-medium"
-              href="https://dribbble.com/mattfarley"
-              target="_blank"
-            >
-              <span className="icon is-small">
-                <i className="fab fa-dribbble fa-fw"></i>
+              <span className="icon">
+                <img src={linkedin} alt="LinkedIn logo" />
               </span>
             </a>
             <a
-              className="button is-medium"
-              href="https://linkedin.com/in/matthew-farley-32526014/"
+              className="social-logo-container button is-medium mr-4"
+              href="https://github.com/MReyna12"
               target="_blank"
             >
-              <span className="icon is-small">
-                <i className="fab fa-linkedin-in fa-fw"></i>
+              <span className="icon">
+                <img src={github} alt="Github logo" />
               </span>
             </a>
             <a
-              className="button is-medium"
-              href="https://indiehackers.com/mattfarley"
+              className="social-logo-container button is-medium mr-4"
+              href="https://twitter.com/michaelpreyna"
               target="_blank"
             >
-              <span className="icon is-small">
-                <i className="fak fa-indie-hackers fa-fw"></i>
+              <span className="icon">
+                <img src={twitter} alt="Twitter logo" />
               </span>
             </a>
             <a
-              className="button is-medium"
-              href="https://indiehackers.com/mattfarley"
-              target="_blank"
+              className="social-logo-container button is-medium"
+              href="mailto:mreyna12@live.com"
             >
-              <span className="icon is-small">
-                <i className="fab fa-product-hunt fa-fw"></i>
+              <span className="icon">
+                <img src={email} alt="Email logo" />
               </span>
             </a>
-            <a className="button is-medium" href="mailto:mattfarley@hey.com">
-              <span className="icon is-small">
-                <i className="far fa-envelope fa-fw"></i>
-              </span>
-            </a>
-          </p>
-        </div>
-        <div className="copyright">
-          Handcrafted by me
-          <span className="icon has-white-text">
-            <i className="far fa-copyright"></i>
-          </span>
-          twentytwentytwo
+          </div>
         </div>
       </div>
     </footer>
