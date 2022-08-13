@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "/mr-icon.png";
 
 function Navbar() {
   return (
@@ -9,12 +10,8 @@ function Navbar() {
     >
       <div className="container">
         <div className="navbar-brand">
-          <a className="navbar-item" href="#">
-            <img
-              src="https://bulma.io/images/bulma-logo.png"
-              width="112"
-              height="28"
-            />
+          <a className="navbar-item" href="/">
+            <img src={logo} alt="MR initials" className="mr-logo" />
           </a>
 
           <a

@@ -35,7 +35,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .shift-up {
-    transform: translateY(-120px);
+    transform: translateY(-150px);
   }
 }
 
@@ -77,4 +77,27 @@ img {
 
 .project-figures:hover img {
   transform: scale(1.1);
+}
+
+/** Footer styling - Footer.jsx **/
+
+.mr-logo {
+  width: 125px;
+}
+
+.under-logo-text {
+  max-width: 300px;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) {
+  .under-logo-text {
+    max-width: 320px;
+  }
+}
+/** Contact container styling - Contact.jsx **/
+@media screen and (min-width: 769px) {
+  .contact-container {
+    transform: translateY(-120px);
+  }
 }

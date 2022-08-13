@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className="section call-to-action is-primary has-text-centered has-background-info">
       <div className="container is-narrow">
-        <div className="box">
+        <div className="contact-container has-background-danger-light box p-6">
           <div className="columns level">
             <div className="column level-item">
               <h2 className="title">Contact me</h2>
@@ -14,7 +14,7 @@ function Contact() {
             </div>
             <div className="column level-item">
               <a
-                className="button is-success is-outlined is-rounded is-medium"
+                className="button is-primary is-outlined is-rounded is-medium"
                 href="mailto:mreyna12@live.com"
               >
                 <span>Coffee Time</span>

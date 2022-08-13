@@ -81,7 +81,7 @@ function Project() {
           </div>
         </div>
         <div className="columns is-centered">
-          <div className="column">
+          <div className="column mb-6">
             <a
               className="button is-primary is-outlined is-rounded is-medium"
               href="https://github.com/MReyna12"

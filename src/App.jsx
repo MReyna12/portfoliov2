@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 import "bulma/css/bulma.min.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Technologies />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

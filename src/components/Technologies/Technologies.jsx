@@ -15,7 +15,7 @@ function Technologies() {
   return (
     <section className="section has-text-centered shift-up">
       <div className="container">
-        <div className="box">
+        <div className="box has-background-danger-light p-6">
           <div className="content">
             <h1 className="title is-2">Familiar Technologies</h1>
             <div className="columns is-centered">
