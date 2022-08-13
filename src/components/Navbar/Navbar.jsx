@@ -31,12 +31,6 @@ function Navbar() {
         </div>
 
         <div className="navbar-menu">
-          <div className="navbar-start">
-            <a className="navbar-item">About</a>
-            <a className="navbar-item">Projects</a>
-            <a className="navbar-item">Contact</a>
-          </div>
-
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
