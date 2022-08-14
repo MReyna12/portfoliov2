@@ -1,3 +1,8 @@
+/** Styling for hamburger menu - Navbar.jsx **/
+.navbar-item .buttons {
+  justify-content: center;
+}
+
 /** Styling for headshot - Hero.jsx **/
 .headshot {
   width: 150px;
