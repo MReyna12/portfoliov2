@@ -13,7 +13,7 @@ function About() {
               I am an attorney-turned-software developer. Thanks to my previous
               career, I garnered the skills necessary to adapt to a variety of
               challenges and projects. I am reliable, versatile, open-minded,
-              and constantly working on ways to build on my ability code.
+              and constantly working on ways to improve my coding abilities.
             </p>
           </div>
         </div>
