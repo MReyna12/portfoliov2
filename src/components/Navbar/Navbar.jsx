@@ -38,8 +38,8 @@ function Navbar() {
             <div className="navbar-item">
               <div className="buttons">
                 <a
-                  href="/resume.pdf"
-                  download="/resume.pdf"
+                  href="/michael-reyna-resume.pdf"
+                  download="/michael-reyna-resume.pdf"
                   className="button is-primary"
                 >
                   Resume
