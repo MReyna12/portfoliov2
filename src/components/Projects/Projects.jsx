@@ -3,6 +3,7 @@ import teachers from "/teacher.png";
 import quizzical from "/quizzical.png";
 import nba from "/nba.png";
 import github from "/github.png";
+import businessCard from "/business-card.png";
 
 function Project() {
   return (
@@ -16,7 +17,7 @@ function Project() {
         </p>
         <div className="project-grid">
           <div className="columns is-multiline is-mobile">
-            <div className="column is-12-mobile is-half-tablet is-one-third-desktop">
+            <div className="column is-12-mobile is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
@@ -38,7 +39,7 @@ function Project() {
                 </figcaption>
               </figure>
             </div>
-            <div className="column is-12-mobile is-half-tablet is-one-third-desktop">
+            <div className="column is-12-mobile is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
@@ -60,7 +61,28 @@ function Project() {
                 </figcaption>
               </figure>
             </div>
-            <div className="column is-12-mobile is-half-tablet is-one-third-desktop">
+            <div className="column is-12-mobile is-half-tablet">
+              <figure className="project-figures image is-3by2">
+                <img
+                  className="project-thumbnail"
+                  src={businessCard}
+                  alt="Screenshot of the a digital business card for Michael Reyna"
+                />
+                <figcaption className="project-figcaption">
+                  <h3 className="title is-size-5 is-size-4-widescreen has-text-light">
+                    Simple digital business card built with React.
+                  </h3>
+                  <a
+                    className="button is-primary is-outlined has-text-white is-rounded my-0 mx-auto"
+                    href="https://michael-reyna-digital-business-card.netlify.app/"
+                    target="_blank"
+                  >
+                    <span>Visit Website</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div className="column is-12-mobile is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img className="project-thumbnail" src={nba} />
                 <figcaption className="project-figcaption">
