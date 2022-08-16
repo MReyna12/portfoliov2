@@ -17,7 +17,7 @@ function Project() {
         </p>
         <div className="project-grid">
           <div className="columns is-multiline is-mobile">
-            <div className="column is-12-mobile is-half-tablet">
+            <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
@@ -39,7 +39,7 @@ function Project() {
                 </figcaption>
               </figure>
             </div>
-            <div className="column is-12-mobile is-half-tablet">
+            <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
@@ -61,7 +61,7 @@ function Project() {
                 </figcaption>
               </figure>
             </div>
-            <div className="column is-12-mobile is-half-tablet">
+            <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
@@ -82,7 +82,7 @@ function Project() {
                 </figcaption>
               </figure>
             </div>
-            <div className="column is-12-mobile is-half-tablet">
+            <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img className="project-thumbnail" src={nba} />
                 <figcaption className="project-figcaption">
