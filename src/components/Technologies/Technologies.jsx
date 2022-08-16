@@ -17,7 +17,9 @@ function Technologies() {
       <div className="container">
         <div className="box has-background-danger-light p-6">
           <div className="content">
-            <h1 className="title is-2">Familiar Technologies</h1>
+            <h1 className="title is-2 is-size-4-mobile">
+              Familiar Technologies
+            </h1>
             <div className="columns is-centered">
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Core</h2>
