@@ -21,29 +21,29 @@ function Technologies() {
             <div className="columns is-centered">
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Core</h2>
-                <img src={jsIcon} alt="JavaScript icon" />
-                <img src={html} alt="HTML5 icon" />
-                <img src={css} alt="CSS3 icon" />
+                <img src={jsIcon} alt="JavaScript icon" title="JavaScript" />
+                <img src={html} alt="HTML5 icon" title="HTML5" />
+                <img src={css} alt="CSS3 icon" title="CSS3" />
               </div>
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Frontend</h2>
-                <img src={reactLogo} alt="React icon" />
+                <img src={reactLogo} alt="React icon" title="React" />
               </div>
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Styling</h2>
-                <img src={bulmaLogo} alt="Bulma icon" />
+                <img src={bulmaLogo} alt="Bulma icon" title="Bulma" />
               </div>
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Backend</h2>
-                <img src={nodeLogo} alt="Node icon" />
-                <img src={postman} alt="Postman icon" />
-                <img src={mongoLogo} alt="MongoDB icon" />
+                <img src={nodeLogo} alt="Node icon" title="NodeJS" />
+                <img src={postman} alt="Postman icon" title="Postman" />
+                <img src={mongoLogo} alt="MongoDB icon" title="MongoDB" />
               </div>
               <div className="column">
                 <h2 className="title is-size-4 is-spaced">Utilities</h2>
-                <img src={github} alt="Github icon" />
-                <img src={git} alt="Git icon" />
-                <img src={vite} alt="Vite icon" />
+                <img src={github} alt="Github icon" title="GitHub" />
+                <img src={git} alt="Git icon" title="Git" />
+                <img src={vite} alt="Vite icon" title="Vite" />
               </div>
             </div>
           </div>
