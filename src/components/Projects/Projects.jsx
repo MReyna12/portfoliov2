@@ -31,7 +31,7 @@ function Project() {
                   </h3>
                   <a
                     className="button is-primary is-outlined has-text-white is-rounded my-0 mx-auto"
-                    href="https://texas-teacher-salaries-api.herokuapp.com/"
+                    href="https://texas-teacher-salaries.vercel.app/"
                     target="_blank"
                   >
                     <span>Visit Website</span>
