@@ -1,5 +1,5 @@
 import React from "react";
-import teachers from "/teacher.png";
+import teachers from "/tts2.png";
 import quizzical from "/quizzical.png";
 import nba from "/nba.png";
 import github from "/github.png";
@@ -16,7 +16,7 @@ function Project() {
           Please take a look at some of my recent projects.
         </p>
         <div className="project-grid">
-          <div className="columns is-multiline is-mobile">
+          <div className="columns is-multiline">
             <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
                 <img
