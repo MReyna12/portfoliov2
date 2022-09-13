@@ -41,6 +41,24 @@ function Project() {
             </div>
             <div className="column is-half-tablet">
               <figure className="project-figures image is-3by2">
+                <img className="project-thumbnail" src={nba} />
+                <figcaption className="project-figcaption">
+                  <h3 className="title is-size-5 is-size-4-widescreen has-text-white">
+                    Find 2021-2022 regular season NBA stats for the starting
+                    five of all 30 NBA teams.
+                  </h3>
+                  <a
+                    className="button is-primary is-outlined is-rounded has-text-white my-x mx-auto"
+                    href="https://nba-statsv2.vercel.app/"
+                    target="_blank"
+                  >
+                    <span>Visit Website</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div className="column is-half-tablet">
+              <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
                   src={quizzical}
@@ -75,24 +93,6 @@ function Project() {
                   <a
                     className="button is-primary is-outlined has-text-white is-rounded my-0 mx-auto"
                     href="https://michael-reyna-digital-business-card.netlify.app/"
-                    target="_blank"
-                  >
-                    <span>Visit Website</span>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div className="column is-half-tablet">
-              <figure className="project-figures image is-3by2">
-                <img className="project-thumbnail" src={nba} />
-                <figcaption className="project-figcaption">
-                  <h3 className="title is-size-5 is-size-4-widescreen has-text-white">
-                    Find 2021-2022 regular season NBA stats for the starting
-                    five of all 30 NBA teams.
-                  </h3>
-                  <a
-                    className="button is-primary is-outlined is-rounded has-text-white my-x mx-auto"
-                    href="https://mreyna12.github.io/nbaStats/"
                     target="_blank"
                   >
                     <span>Visit Website</span>
