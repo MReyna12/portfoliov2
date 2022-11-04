@@ -3,7 +3,7 @@ import teachers from "/tts2.png";
 import quizzical from "/quizzical.png";
 import nba from "/nba.png";
 import github from "/github.png";
-import businessCard from "/business-card.png";
+import landingPage from "/easybank-landing-page.png";
 
 function Project() {
   return (
@@ -83,16 +83,16 @@ function Project() {
               <figure className="project-figures image is-3by2">
                 <img
                   className="project-thumbnail"
-                  src={businessCard}
-                  alt="Screenshot of the a digital business card for Michael Reyna"
+                  src={landingPage}
+                  alt="Landing page for Easybank"
                 />
                 <figcaption className="project-figcaption">
                   <h3 className="title is-size-5 is-size-4-widescreen has-text-light">
-                    Simple digital business card built with React.
+                    Landing page for Easybank.
                   </h3>
                   <a
                     className="button is-primary is-outlined has-text-white is-rounded my-0 mx-auto"
-                    href="https://michael-reyna-digital-business-card.netlify.app/"
+                    href="https://easybank-landing-page-mr.vercel.app/"
                     target="_blank"
                   >
                     <span>Visit Website</span>
